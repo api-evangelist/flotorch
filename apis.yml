@@ -1,23 +1,89 @@
 aid: flotorch
+
 name: Fission Labs
-description: 'Fission Labs is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/67f6243f7db1a067d430799f/68620f8a1da53c553f115428_FloTorch%20Colour%20Logo%20New%20Transparent%20Blue.png
+
+description: 'FloTorch, operated by Fission Labs, provides an enterprise platform for building and scaling agentic AI solutions. The company offers research products, LLMOps and FMOps optimization, RAG pipelines, performance and cost analytics, security guardrails, and a no‑code workflow management system. Their services include a unified gateway, cache management, real‑time performance tracking, and extensive documentation and resources for enterprises to evaluate, deploy, and monitor AI models at scale.'
+
 url: https://raw.githubusercontent.com/api-evangelist/flotorch/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- AI
+- Enterprise
+- Platform
+- LLMOps
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/flotorch-changelog.yml
+- type: Hosts
+  url: hosts/flotorch-hosts.yml
+- type: Vendors
+  url: vendors/flotorch-vendors.yml
+- type: SDKs
+  url: packages/flotorch-packages.yml
+- type: Packages
+  url: packages/flotorch-packages.yml
+- type: GettingStarted
+  url: https://www.flotorch.ai/blogs/getting-started-with-flotorch-core-building-modular-rag-pipelines
+- type: DomainSecurity
+  url: security/flotorch-domain-security.yml
 - type: Website
   url: https://flotorch.ai/
+
+- type: DeveloperPortal
+  url: https://www.flotorch.ai/
+- type: Documentation
+  url: https://docs.flotorch.cloud/blueprints/
+- type: Blog
+  url: https://www.flotorch.ai/blogs
+- type: GitHubOrganization
+  url: https://github.com/FissionAI
+- type: SignUp
+  url: https://console.flotorch.cloud/auth/signup?provider=flotorch
+- type: TermsOfService
+  url: https://www.flotorch.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.flotorch.ai/privacy-policy
+- type: Support
+  url: https://www.flotorch.ai/contact-us
+- type: Postman
+  url: https://www.postman.com/flotorch/workspace
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via JavaScript and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://docs.flotorch.cloud/blueprints/
+      status: 200
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

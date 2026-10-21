@@ -1,0 +1,24 @@
+generated: '2026-10-20'
+source: https://www.flotorch.ai/privacy-policy
+method: probed
+signals:
+  data_retention:
+    evidence:
+      - source: https://www.flotorch.ai/privacy-policy
+        http_status: 200
+        fetched: regulatory/privacy-policy.html
+        quote: "All personal data shall be preserved only for the duration required to fulfill the purpose for which it was collected or as required under applicable law or internal compliance standards, whichever period is longer."
+    note: Retention period is defined as purpose‑based or legal requirement, no fixed timeframe disclosed.
+  subprocessors:
+    evidence:
+      - source: https://www.flotorch.ai/privacy-policy
+        http_status: 200
+        fetched: regulatory/privacy-policy.html
+        quote: "... disclosed to authorized service providers, vendors, or affiliates operating under strict confidentiality agreements and bound to adhere to this Policy or equivalent standards."
+    note: Indicates use of subprocessors under confidentiality agreements.
+  incident_notification:
+    evidence: []
+    note: No explicit breach or incident notification clause found in the privacy policy.
+  data_subject_request:
+    evidence: []
+    note: No explicit data subject rights (access, deletion, etc.) clause identified.

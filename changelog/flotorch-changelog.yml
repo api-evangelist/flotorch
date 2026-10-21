@@ -1,0 +1,21 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.flotorch.ai/blogs/whats-new-in-flotorch-evaluate-everything-route-intelligently-build-faster
+sources:
+- https://www.flotorch.ai/blogs/whats-new-in-flotorch-evaluate-everything-route-intelligently-build-faster
+entries:
+- breaking: false
+  highlights:
+  - Version 1.13 ships Smart Routing, the Floeval SDK, a comprehensive Evaluations framework, and Gateway Hono — along with enhanced dataset tooling
+    and ready-to-run workflow Blueprints.
+  - Smart Routing removes the manual burden by automatically evaluating the complexity of each incoming prompt and selecting the most suitable
+    model from your configured pool.
+  - The Floeval SDK is a unified, multi-backend evaluation framework that covers LLMs, RAG pipelines, prompts, agents, and multi‑agent workflows
+    in a single library.
+  - 'This release ships four pre‑built, ready‑to‑run workflow templates: Google Calendar Blueprint, Presales Research Blueprint, Release Notes
+    Generator, and Competitor Battle Cards.'
+  version: '1.13'
+current_version: '1.13'
+note: Only one release entry is listed on the page; no explicit release date is provided.
+docs: https://www.flotorch.ai/blogs/whats-new-in-flotorch-evaluate-everything-route-intelligently-build-faster
